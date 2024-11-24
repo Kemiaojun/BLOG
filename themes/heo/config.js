@@ -4,12 +4,15 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
-
+  HEO_SITE_CREATE_TIME: '2024-11-10', // 建站日期，用于计算网站运行的第几天
+.
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到我的博客', url: 'https://www.314926.xya/' },
+    { title: '欢迎来到我的电报频道', url: 'https://t.me/kemiaofx_me/' },
+    { title: '欢迎来到我的电报群组',url: 'https://t.me/+x3Cysfgpqh84ZmY1/' },
+    { title: '欢迎来到我的导航页',url: 'https://www.3142611.xyz/' },
+    { title: '欢迎来到我的Github',url: 'https://github.com/Kemiaojun/' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,19 +21,19 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_1: '分享资源',
+  HEO_HERO_TITLE_2: '与开源精神',
+  HEO_HERO_TITLE_3: 'Kemiaosw.top',
+  HEO_HERO_TITLE_4: '克喵的博客',
+  HEO_HERO_TITLE_5: 'Resources Sharing -> 克喵BLOG',
+  HEO_HERO_TITLE_LINK: 'https://kemiaofx.top/',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选',url: '/tag/必看精选' }，
+  HEO_HERO_CATEGORY_2: { title: '热门文章',url: '/tag/热门文章' },
+  HEO_HERO_CATEGORY_3: { title: '实用教程',url: '/tag/实用教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -51,9 +54,9 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_URL2: 'https://github.com/Kemaiojun',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  HEO_INFO_CARD_URL3: 'https://www.kemiaosw.top/',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
